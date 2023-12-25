@@ -1,6 +1,6 @@
 def binary_search(array, item):
     inicio = 0
-    fim = len(array)-1
+    fim = len(array)
 
     while inicio <= fim:
         m = (inicio + fim)//2
@@ -14,4 +14,4 @@ def binary_search(array, item):
 
 lista = [1, 2, 3, 4, 70]
 
-print ("indice:" (binary_search(lista, 2)))
+print ("indice: ", (binary_search(lista, 2)))
